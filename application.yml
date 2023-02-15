@@ -2,7 +2,6 @@ Spring:
    application:
        name: CONFIG-DEFAULT
 
-  
 eureka:
   instance:
     hostname: localhost
