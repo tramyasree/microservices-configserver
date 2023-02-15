@@ -1,6 +1,4 @@
-Spring:
-   application:
-       name: CONFIG-DEFAULT
+
 
 eureka:
   instance:
