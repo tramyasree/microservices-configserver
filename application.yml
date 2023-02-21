@@ -1,6 +1,4 @@
-spring:
-   application:
-       name: CONFIG-DEFAULT
+
 
 eureka:
   instance:
@@ -12,3 +10,18 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone : http://localhost:8761/eureka
+      
+      
+spring:  
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 1234
+    url: jdbc:mysql://localhost:3306/employee
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
